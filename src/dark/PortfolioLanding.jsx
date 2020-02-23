@@ -8,7 +8,6 @@ import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import BlogContent from "../elements/blog/BlogContent";
 
 const SlideList = [
     {
@@ -22,7 +21,6 @@ const SlideList = [
 const PortfolioLanding = () => {
     let title = 'About Me',
         description = "Hi, I'm Erik Boerma! As an energetic and motivated front end developer, I have always had a fascination with technology. Recently I graduated from an intensive Full Stack Web Developer program at The University of Pennsylvania where I learned, experienced and enjoyed both front and back end development. Having a strong passion for front end technologies, I continue to hone my skills in HTML5, CSS3, JavaScript and ReactJS among others.  <br> I plan to continue my passion of creating and maintaining robust websites and applications for those who have a need both personally and professionally for many years to come, growing into a true full stack developer.";
-    const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />
@@ -90,27 +88,7 @@ const PortfolioLanding = () => {
             
             {/* End About Area */}
 
-            {/* Start Service Area 
-            <div id="service" className="fix">
-                <div className="service-area creative-service-wrapper ptb--120 bg_color--5" >
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                    <h2 className="title">My Awesome Service</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row creative-service">
-                            <div className="col-lg-12">
-                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-            {/* End Service Area  */}  
+            
 
             {/* Start Portfolio Area */}
             <div id="portfolio" className="fix">
@@ -141,42 +119,7 @@ const PortfolioLanding = () => {
             </div>
             {/* End Portfolio Area */}
 
-            {/* Start Blog Area */}
-            <div id="blog" className="fix">
-                <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
-                    <div className="container">
-                        <div className="row align-items-end">
-                            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div className="section-title text-center">
-                                    <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, <br />but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row mt--60 mt_sm--40">
-                            {PostList.map((value , i ) => (
-                                <div className="col-lg-4 col-md-6 col-12" key={i}>
-                                    <div className="blog blog-style--1">
-                                        <div className="thumbnail">
-                                            <a href="/blog-details">
-                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
-                                            </a>
-                                        </div>
-                                        <div className="content">
-                                            <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
-                                            <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/blog-details">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>    
-                    </div>    
-                </div>
-            </div>
-            {/* End Blog Area */}
+            
 
             {/* Start COntact Area */}
             <div id="contact" className="fix">
