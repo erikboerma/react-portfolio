@@ -5,8 +5,8 @@ class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab3 = "Experience",
-        tab4 = "Education & Certification";
+        tab2 = "Major Projects",
+        tab3 = "Education & Certifications";
         const { tabStyle } = this.props
         return(
             <div>
@@ -18,8 +18,8 @@ class TabsTwo extends Component{
                                 <Tabs>
                                     <TabList  className={`${tabStyle}`}>
                                         <Tab>{tab1}</Tab>
+                                        <Tab>{tab2}</Tab>
                                         <Tab>{tab3}</Tab>
-                                        <Tab>{tab4}</Tab>
                                     </TabList>
 
                                     <TabPanel>
@@ -30,24 +30,25 @@ class TabsTwo extends Component{
                                                     HTML5, CSS3, JavaScript, React
                                                 </li>
                                                 <li>
-                                                    <strong>Stacks and Frameworks Experience</strong><br/>
+                                                    <strong>Stacks and Framework Experience</strong><br/>
                                                     jQuery, Bootstrap, Firebase, node.js, MySQL, MongoDB, Express, Handlebars
                                                 </li>
                                             </ul>
                                         </div>
                                     </TabPanel>
 
+                    
                                     <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a>Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
+                                                   <strong>Gym Tracker - Technologies Used</strong> <br/>HTML, CSS, Javascript, Bootstrap, jQuery, Firebase, 2 API’s are called using AJAX
                                                </li>
                                                <li>
-                                                   <a>Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
+                                                   <strong>Point of Sale System - Technologies Used</strong> <br/>HTML, CSS, Javascript, handlebars, jQuery, express, and MySQL with sequalize. This was deployed to Heroku with JawsDB
                                                </li>
                                                <li>
-                                                   <a>Software Engineer<span> - Alibaba </span></a> 2013- 2014
+                                                   <strong>LetsPlayHockey - Technologies Used</strong> <br/>HTML, CSS, Javascript, ReactJS, MySQL, express, passport, sequalize. Deployed to Heroku with JawsDB
                                                </li>
                                            </ul>
                                        </div>
@@ -57,13 +58,11 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a>BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
+                                                   <a>Certificate of Completion<span> - University of Pennsylvania, Philadelphia, PA</span></a> 2020
                                                </li>
+                                               
                                                <li>
-                                                   <a>Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
-                                               </li>
-                                               <li>
-                                                   <a>Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
+                                                   <a>B.S. Business Management<span> - Plymouth State University, Plymouth, NH</span></a> 2006
                                                </li>
                                            </ul>
                                        </div>

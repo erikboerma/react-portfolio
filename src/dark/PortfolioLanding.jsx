@@ -20,8 +20,6 @@ const SlideList = [
     }
 ]
 const PortfolioLanding = () => {
-    let title = 'About Me',
-        description = "Hi, I'm Erik Boerma! As an energetic and motivated front end developer, I have always had a fascination with technology. Recently I graduated from an intensive Full Stack Web Developer program at The University of Pennsylvania where I learned, experienced and enjoyed both front and back end development. Having a strong passion for front end technologies, I continue to hone my skills in HTML5, CSS3, JavaScript and ReactJS among others.  <br> I plan to continue my passion of creating and maintaining robust websites and applications for those who have a need both personally and professionally for many years to come, growing into a true full stack developer.";
     return (
         <div className="active-dark">
 
@@ -77,8 +75,10 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-7">
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">{title}</h2>
-                                            <p className="description">{description}</p>
+                                            <h2 className="title">About Me</h2>
+                                            <p className="description">Hi, I'm Erik Boerma! As an energetic and motivated front end developer, I have always had a fascination with technology. Recently I graduated from an intensive Full Stack Web Developer program at The University of Pennsylvania 
+                                            where I learned, experienced and enjoyed both front and back end development. Having a strong passion for front end technologies, I continue to hone my skills in HTML5, CSS3, JavaScript and ReactJS among others.  
+                                            <br/> I plan to continue my passion of creating and maintaining robust websites and applications for those who have a need both personally and professionally for many years to come, growing into a true full stack developer.</p>
                                         </div>
                                         <div className="row mt--30">
                                             <TabTwo tabStyle="tab-style--1" />
@@ -104,7 +104,7 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">My Projects</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>Through the course of 6 months, I learned many different technologies.  Below are some highlights from a few of my stronger projects!</p>
                                     </div>
                                 </div>
                             </div>
