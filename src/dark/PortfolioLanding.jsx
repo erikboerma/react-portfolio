@@ -37,7 +37,7 @@ const PortfolioLanding = () => {
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
-                                        <h5>Welcome to my World</h5>
+                                        <h5>Welcome to my World, please don't mind the construction... it's a work in progress!</h5>
 
                                             {/* {value.category ? <span>{value.category}</span> : ''} */}
                                             <h1 className="title">Hi, I’m Erik Boerma <br/>
