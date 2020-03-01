@@ -104,7 +104,7 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">My Projects</h2>
-                                        <p>Through the course of 6 months, I learned many different technologies.  Below are some highlights from a few of my stronger projects!</p>
+                                        <p>Through the course of 6 months, I learned many different technologies.  Below are some highlights from a few of my stronger or favorite projects!</p>
                                     </div>
                                 </div>
                             </div>
