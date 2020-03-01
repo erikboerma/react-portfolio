@@ -16,7 +16,7 @@ const PortfolioListContent = [
         gitHub: 'https://github.com/erikboerma/project-2'
     },
     {
-        image: '',
+        image: '/assets/images/letsPlayHockeySS.jpeg',
         category: 'Class Project 3',
         title: 'Lets Play Hockey',
         live: 'https://lets-play-hockey.herokuapp.com/',
