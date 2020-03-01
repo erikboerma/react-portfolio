@@ -30,7 +30,7 @@ const PortfolioListContent = [
         gitHub: 'https://github.com/erikboerma/giftastic'
     },
     {
-        image: '/assets/images/bamazon_demo.mov',
+        image: '/assets/images/bAmazonSS.jpeg',
         category: 'Homework Assignment',
         title: 'bAmazon',
         live: 'https://github.com/erikboerma/bamazon/blob/master/bamazon_demo.mov',
