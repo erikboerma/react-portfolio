@@ -42,12 +42,12 @@ const PortfolioLanding = () => {
                                             {/* {value.category ? <span>{value.category}</span> : ''} */}
                                             <h1 className="title">Hi, I’m Erik Boerma <br/>
                                             <TextLoop>
-                                                <span> Web Developer.</span>
-                                                <span> UI/UX Developer.</span>
-                                                <span> Product Manager.</span>
+                                                <span> Web Developer</span>
+                                                <span> UI/UX Developer</span>
+                                                <span> Product Manager</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>from Philadelphia.</h2>
+                                            <h2> from Philadelphia.</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>

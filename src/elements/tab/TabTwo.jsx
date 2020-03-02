@@ -58,11 +58,11 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a>Certificate of Completion<span> - University of Pennsylvania, Philadelphia, PA</span></a> 2020
+                                                   <a>Certificate of Completion, Full Stack Developer<span><br/> University of Pennsylvania, Philadelphia, PA</span></a> 2020
                                                </li>
                                                
                                                <li>
-                                                   <a>B.S. Business Management<span> - Plymouth State University, Plymouth, NH</span></a> 2006
+                                                   <a>B.S. Business Management<span><br/> Plymouth State University, Plymouth, NH</span></a> 2006
                                                </li>
                                            </ul>
                                        </div>
