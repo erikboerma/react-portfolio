@@ -5,8 +5,9 @@ class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab2 = "Major Projects",
-        tab3 = "Education & Certifications";
+        tab2 = "Current Project",
+        tab3 = "Major Projects",
+        tab4 = "Education";
         const { tabStyle } = this.props
         return(
             <div>
@@ -20,6 +21,7 @@ class TabsTwo extends Component{
                                         <Tab>{tab1}</Tab>
                                         <Tab>{tab2}</Tab>
                                         <Tab>{tab3}</Tab>
+                                        <Tab>{tab4}</Tab>
                                     </TabList>
 
                                     <TabPanel>
@@ -37,18 +39,12 @@ class TabsTwo extends Component{
                                         </div>
                                     </TabPanel>
 
-                    
                                     <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <strong>Gym Tracker - Technologies Used</strong> <br/>HTML, CSS, Javascript, Bootstrap, jQuery, Firebase, 2 API’s are called using AJAX
-                                               </li>
-                                               <li>
-                                                   <strong>Point of Sale System - Technologies Used</strong> <br/>HTML, CSS, Javascript, handlebars, jQuery, express, and MySQL with sequalize. This was deployed to Heroku with JawsDB
-                                               </li>
-                                               <li>
                                                    <strong>LetsPlayHockey - Technologies Used</strong> <br/>HTML, CSS, Javascript, ReactJS, MySQL, express, passport, sequalize. Deployed to Heroku with JawsDB
+                                                   <hr/> <strong>Current objective:</strong> fixing an issue with the database and heroku deployment, updating UX/UI
                                                </li>
                                            </ul>
                                        </div>
@@ -58,11 +54,24 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a>Certificate of Completion, Full Stack Developer<span><br/> University of Pennsylvania, Philadelphia, PA</span></a> 2020
+                                                   <strong>Gym Tracker - Technologies Used</strong> <br/>HTML, CSS, Javascript, Bootstrap, jQuery, Firebase, 2 API’s are called using AJAX
+                                               </li>
+                                               <li>
+                                                   <strong>Point of Sale System - Technologies Used</strong> <br/>HTML, CSS, Javascript, handlebars, jQuery, express, and MySQL with sequalize. This was deployed to Heroku with JawsDB
+                                               </li>
+                                           </ul>
+                                       </div>
+                                    </TabPanel>
+
+                                    <TabPanel>
+                                       <div className="single-tab-content">
+                                           <ul>
+                                               <li>
+                                                   <strong>Certificate of Completion, Full Stack Developer</strong><br/> University of Pennsylvania, Philadelphia, PA 2020
                                                </li>
                                                
                                                <li>
-                                                   <a>B.S. Business Management<span><br/> Plymouth State University, Plymouth, NH</span></a> 2006
+                                                   <strong>B.S. Business Management</strong><br/> Plymouth State University, Plymouth, NH 2006
                                                </li>
                                            </ul>
                                        </div>
