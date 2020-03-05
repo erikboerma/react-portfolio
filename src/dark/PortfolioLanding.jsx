@@ -48,8 +48,8 @@ const PortfolioLanding = () => {
                                             </TextLoop>{" "}
                                             </h1>
                                             <h2> from Philadelphia.</h2>
-                                            {value.description ? <p className="description">{value.description}</p> : ''}
-                                            {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
+                                            {/* {value.description ? <p className="description">{value.description}</p> : ''}
+                                            {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''} */}
                                         </div>
                                     </div>
                                 </div>
