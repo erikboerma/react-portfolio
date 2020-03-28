@@ -44,7 +44,7 @@ class TabsTwo extends Component{
                                            <ul>
                                                <li>
                                                    <strong>LetsPlayHockey - Technologies Used</strong> <br/>HTML, CSS, Javascript, ReactJS, MySQL, express, passport, sequalize. Deployed to Heroku with JawsDB
-                                                   <hr/> <strong>Current objective:</strong> fixing an issue with the database and heroku deployment, updating UX/UI
+                                                   <hr/> <strong>Current objective:</strong> Finishing a webpage for a family member and completing a course to master React 
                                                </li>
                                            </ul>
                                        </div>
