@@ -5,7 +5,7 @@ class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab2 = "Current Project",
+        tab2 = "Current Work",
         tab3 = "Major Projects",
         tab4 = "Education";
         const { tabStyle } = this.props
@@ -44,10 +44,9 @@ class TabsTwo extends Component{
                                            <ul>
                                                <li>
                                                    {/* <strong>LetsPlayHockey - Technologies Used</strong> <br/>HTML, CSS, Javascript, ReactJS, MySQL, express, passport, sequalize. Deployed to Heroku with JawsDB */}
-                                                   <strong>Completing a course on React</strong><br />
                                                    <strong>Eavis Garage Doors- Technologies Used</strong> <br/>HTML, CSS, Javascript, ReactJS.
-
-                                                   <hr/> <strong>Current projects:</strong> Finishing the webpage and planning to launch it soon. 
+                                                   <hr/> <strong>Current status:</strong> Finishing the webpage and planning to launch it by 4/1. 
+                                                   <hr/><strong>Also completing an online course on React</strong>
                                                </li>
                                            </ul>
                                        </div>
