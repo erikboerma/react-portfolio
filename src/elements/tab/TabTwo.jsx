@@ -43,7 +43,6 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   {/* <strong>LetsPlayHockey - Technologies Used</strong> <br/>HTML, CSS, Javascript, ReactJS, MySQL, express, passport, sequalize. Deployed to Heroku with JawsDB */}
                                                    <strong>Eavis Garage Doors- Technologies Used</strong> <br/>HTML, CSS, Javascript, ReactJS.
                                                    <hr/> <strong>Current status:</strong> Finishing the webpage and planning to launch it by 4/1. 
                                                    <hr/><strong>Also completing an online course on React</strong>
@@ -61,6 +60,9 @@ class TabsTwo extends Component{
                                                <li>
                                                    <strong>Point of Sale System - Technologies Used</strong> <br/>HTML, CSS, Javascript, handlebars, jQuery, express, and MySQL with sequalize. This was deployed to Heroku with JawsDB
                                                </li>
+                                               <li>
+                                                   <strong>LetsPlayHockey - Technologies Used</strong> <br/>HTML, CSS, Javascript, ReactJS, MySQL, express, passport, sequalize. Deployed to Heroku with JawsDB
+                                                </li>
                                            </ul>
                                        </div>
                                     </TabPanel>
