@@ -44,7 +44,7 @@ class TabsTwo extends Component{
                                            <ul>
                                                <li>
                                                    <strong>Eavis Garage Doors- Technologies Used</strong> <br/>HTML, CSS, Javascript, ReactJS.
-                                                   <hr/> <strong>Current status:</strong> Hit a major error with GitHub, repository issue.  Have to rebuild the site.. This was a learning experience to say the least. 
+                                                   <hr/> <strong>Current status:</strong> After a hiatus, getting back up and running!  Jumping back into the fundamentals as well as building a new website.
                                                    <hr/><strong>Completing an online course to perfect my React knowledge</strong>
                                                </li>
                                            </ul>
